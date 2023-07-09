@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+    margin: 0;
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom,#4BA8C0, #071B8C);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    font-size: min(100%,15px);
+}
+
+header{
+    padding: 20px;
+}
+  
+main{
+    flex: 1;
+}
+
+section{
+    width: max(50%,600px);
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fotoperfil{
+    width: 100px;
+    margin: 20px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    margin: 30px;
+    color: #EEEEEE;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{
+    margin: 10px;
+    color: #EEEEEE;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+li{
+    padding: 20px;
+    margin: 10px;
+    color: #EEEEEE;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    border: 3px solid #EEEEEE;
+    border-radius: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.links li:hover{
+    background-color: #EEEEEE;
+    color: #1B1C1E;
+}
+
+footer{
+    color: #EEEEEE;
+    padding: 20px;
+    flex-shrink: 0;
+}
