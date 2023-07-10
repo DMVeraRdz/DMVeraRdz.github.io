@@ -63,8 +63,9 @@ li{
     font-weight: bold;
     text-align: center;
     box-sizing: border-box;
-    border: 3px solid #EEEEEE;
+    border: 2px solid #EEEEEE;
     border-radius: 30px;
+    transition: 0.5s all
 }
 
 a{
